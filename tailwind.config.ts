@@ -9,9 +9,20 @@ export default {
 	],
 	theme: {
 		extend: {
+			container: {
+				center: true,
+				padding: {
+					DEFAULT: '1rem',
+					sm: '2rem',
+					lg: '4rem',
+					xl: '5rem',
+					'2xl': '6rem',
+				},
+			},
 			colors: {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				dark: 'hsl(255 5.6% 14.1%)',
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'

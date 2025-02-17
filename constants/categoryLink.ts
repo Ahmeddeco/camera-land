@@ -1,22 +1,22 @@
 export const CategoryLink = [
   {
     title: 'dslr',
-    href: '/dslr'
+    href: 'category/dslr'
   },
   {
     title: 'mirrorless',
-    href: '/mirrorless'
+    href: 'category/mirrorless'
   },
   {
     title: 'compact',
-    href: '/compact'
+    href: 'category/compact'
   },
   {
     title: 'film',
-    href: '/film'
+    href: 'category/film'
   },
   {
     title: 'professional',
-    href: '/professional'
+    href: 'category/professional'
   },
 ]
